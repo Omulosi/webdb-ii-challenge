@@ -7,7 +7,7 @@ exports.up = function(knex) {
     tbl.text('model').notNullable();
     tbl.decimal('mileage').notNullable();
     tbl.string('transmission_type');
-    tbl.status('status');
+    tbl.string('status');
   });  
 };
 
